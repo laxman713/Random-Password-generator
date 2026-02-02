@@ -1,0 +1,44 @@
+<!-- namePass.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="namePass.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="heading">
+ <h1 id="title">R.P.G</h1>
+ <ul>
+    <li><h2 id="home">Home</h2></li>
+    <li><h2 id="about">About</h2></li>
+ </ul>
+</div>
+
+<div class="center">
+  <h1> Password Generator Based On Your Prompt </h1><br>
+
+  <form id="promptForm">
+    <label>Name :</label><br>
+      <input type="text" id="name" placeholder="Enter Your Name"><br><br>
+
+        <label>Numbers :</label><br>
+      <input type="text" id="numbers" placeholder="Enter numbers"><br><br>
+
+      <label>Symbols :</label><br>
+      <input type="text" id="symbols" placeholder="Enter Symbols"><br><br>
+   
+  
+    <label for="length">Password Length:</label><br>
+    <input type="number" id="length"   style="margin-top: 5px;"><br><br>
+
+    <button type="button" id="btn1">Generate Password</button><br><br><br>
+    <label>Password:</label><br>
+    <!-- <textarea id="textarea">hello</textarea> -->
+  </form>
+   <h2 id="textarea">...</h2>
+</div>
+<script src="namePass.js"></script>
+</body>
+</html>

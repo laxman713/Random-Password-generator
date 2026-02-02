@@ -1,0 +1,73 @@
+/* About.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* 🔥 Prevent bottom scroll/space */
+}
+
+/* ===== HEADER ===== */
+.heading {
+  background-color: rgb(238, 238, 198);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  height: 80px;
+}
+.title{
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+li {
+  cursor: pointer;
+}
+
+/* ===== MAIN CONTAINER BELOW HEADER ===== */
+.container {
+  display: flex;
+  height: calc(100vh - 80px); /* take up the rest of the screen */
+  width: 100vw;
+  position: relative;
+}
+
+/* ===== LEFT & RIGHT HALVES ===== */
+.half {
+  width: 50%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center; /* ✅ center horizontally */
+  align-items: flex-start;  /* ✅ align at top */
+}
+
+.half h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* ===== VERTICAL LINE IN MIDDLE ===== */
+.divider {
+  width: 2px;
+  background-color: black;
+  height: calc(100vh - 80px); /* match container height */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-1px);
+}
+#btn1 , #btn2{
+  height: 30px;
+  width : 150px;
+  margin-left : 100px; 
+}

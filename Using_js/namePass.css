@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* 🔥 Prevent bottom scroll/space */
+
+ 
+}
+
+.heading {
+  background-color: rgb(238, 238, 198);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  height: 80px;
+}
+.title{
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+li {
+  cursor: pointer;
+}
+.center h1{
+    margin-left: 30%;
+}
+#promptForm{
+    margin-left:40%;
+}
+#promptForm button{
+  height: 50px;
+  width: 150px;
+}
+#length{
+    width : 200px;
+}
+#textarea{  
+  position: absolute;
+  left: 50%;                      /* Start from center */
+  transform: translateX(-50%);    /* Pull it back by half its width */
+  outline: none;
+  border: none;
+  border-bottom: 0;
+  font-size: 24px;
+  font-weight: normal;
+  transition: border-bottom 0.2s ease;
+  display: inline-block;
+  white-space: nowrap; 
+
+}
+#textarea:hover{
+     min-width: 300px;
+    border-bottom: 2px solid black;
+   
+}

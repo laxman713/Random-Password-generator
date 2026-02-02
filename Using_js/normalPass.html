@@ -1,0 +1,55 @@
+<!-- normalPass.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="normalPass.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="heading">
+ <h1 id="title">R.P.G</h1>
+ <ul>
+    <li><h2 id="home">Home</h2></li>
+    <li><h2 id="about">About</h2></li>
+ </ul>
+</div>
+
+<div class="center">
+  <h1>Normal Password Generator</h1><br>
+
+  <form id="promptForm">
+    <label>
+      <input type="checkbox" id="includeNumbers" checked>
+      Include Numbers (0-9)
+    </label><br><br>
+
+    <label>
+      <input type="checkbox" id="includeLowercase" >
+      Include Lowercase Letters (a-z)
+    </label><br><br>
+
+    <label>
+      <input type="checkbox" id="includeUppercase" >
+      Include Uppercase Letters (A-Z)
+    </label><br><br>
+
+    <label>
+      <input type="checkbox" id="includeSymbols" >
+      Include Symbols (!@#$...)
+    </label><br><br>
+  
+    <label for="length">Password Length:</label><br>
+    <input type="number" id="length" min="4" max="50"  style="margin-top: 5px;"><br><br>
+
+    <button type="button" id="btn1">Generate Password</button><br><br><br>
+    <label>Password:</label><br>
+    <!-- <textarea id="textarea">hello</textarea> -->
+  </form>
+   <h2 id="textarea">...</h2>
+</div>
+<script src="normalPass.js"></script>
+</body>
+</html>
+
