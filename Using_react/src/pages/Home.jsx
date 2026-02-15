@@ -51,7 +51,7 @@ function AppNavbar() {
     <div class="col-12 col-sm-8 col-md-7 col-lg-6 mt-5">
           <div class= "pt-4 mt-sm-5 pt-sm-5 pt-md-5 pt-lg-5">
 
-         <img src={passwordImg} class="img-fluid " alt="Image 2"/>
+         <img src={passwordImg} class="img-fluid " alt="password pic 1"/>
     </div>
     </div>
   </div>
