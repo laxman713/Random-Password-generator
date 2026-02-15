@@ -45,7 +45,7 @@ function AppNavbar() {
         </div>
 
      
- <Link to="/generate">
+ <Link to="/about">
   <button className="btn btn-primary">Generate Password</button>
 </Link>    </div>
     <div class="col-12 col-sm-8 col-md-7 col-lg-6 mt-5">

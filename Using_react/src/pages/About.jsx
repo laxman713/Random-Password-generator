@@ -45,7 +45,7 @@ function AboutPage(){
         <p>
            Generate highly secure random passwords with customizable length and optional symbols and numbers for better security. 
         </p>
-             <Link to="/generate">
+             <Link to="/generate1">
   <button className="btn btn-primary">Generate Password</button>
 </Link>
 <br/><br/>
@@ -58,7 +58,7 @@ Generate personalized passwords from user input with customizable length and opt
         </div>
 
      
- <Link to="/generate">
+ <Link to="/generate2">
   <button className="btn btn-primary">Generate Password</button>
 </Link>
     </div>
